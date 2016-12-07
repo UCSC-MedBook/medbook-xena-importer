@@ -11,6 +11,6 @@ docker run -d \
        -p 127.0.0.1:7222:7222 \
        -v /home/ubuntu/logs:/logs \
        -v /home/ubuntu/xena_data:/root/xena/files \
-       xena
+       medbook/xena
 
 tail -F /home/ubuntu/logs/xena.log
